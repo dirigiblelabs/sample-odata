@@ -1,13 +1,14 @@
-<entry xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="http://localhost:8080/odata/v2/">
-<id>http://localhost:8080/odata/v2/Orders(101)</id>
-<title type="text">Orders</title>
-<updated>2021-04-19T13:33:17.097+03:00</updated>
-<category term="org.apache.olingo.odata2.ODataOrders.OrdersType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
-<link href="Orders(101)" rel="edit" title="OrdersType"/>
-<content type="application/xml">
-<m:properties>
-<d:Id>101</d:Id>
-<d:Customer>John</d:Customer>
-</m:properties>
-</content>
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xml:base="http://localhost:8080/odata/v2/">
+   <id>http://localhost:8080/odata/v2/Orders(101)</id>
+   <title type="text">Orders</title>
+   <updated>2021-04-19T13:33:17.097+03:00</updated>
+   <category term="org.apache.olingo.odata2.ODataOrders.OrdersType" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+   <link href="Orders(101)" rel="edit" title="OrdersType" />
+   <content type="application/xml">
+      <m:properties>
+         <d:Id>101</d:Id>
+         <d:Customer>John</d:Customer>
+      </m:properties>
+   </content>
 </entry>
