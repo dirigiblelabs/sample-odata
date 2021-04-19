@@ -1,5 +1,5 @@
 {
-  "namespace": "org.apache.olingo.odata2.ODataOrders",
+  "namespace": "org.eclipse.dirigible.ODataOrders",
   "entities": [{
       "name": "Order",
       "alias": "Orders",
@@ -7,7 +7,13 @@
       "navigations": [{
           "name": "Items",
           "association": "OrderItems"
-      }]
+      }],
+      "handlers": [{
+              "method": "create",
+              "type": "before",
+              "handler":"/sample-odata/OrdersHandler"
+          }
+      ]
     }, {
       "name": "Item",
       "alias": "Items",
